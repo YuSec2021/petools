@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PEDialog</class>
+ <widget class="QDialog" name="PEDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>699</width>
+    <height>485</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>671</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="vboxlayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="baseinfo">
+       <attribute name="title">
+        <string>基础信息</string>
+       </attribute>
+       <widget class="QWidget" name="verticalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>581</width>
+          <height>361</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Path：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="path_browser">
+             <property name="maximumSize">
+              <size>
+               <width>500</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Suffix:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="suffix_browser">
+             <property name="maximumSize">
+              <size>
+               <width>500</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Format：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="format_browser">
+             <property name="maximumSize">
+              <size>
+               <width>500</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>MD5：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="md5_browser">
+             <property name="maximumSize">
+              <size>
+               <width>500</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>SHA1：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="sha1_browser">
+             <property name="maximumSize">
+              <size>
+               <width>500</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <item>
+            <widget class="QLabel" name="label_8">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SHA256:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="sha256_browser">
+             <property name="maximumSize">
+              <size>
+               <width>500</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_7">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_7">
+           <item>
+            <widget class="QLabel" name="label_7">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Author: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="author_browser">
+             <property name="maximumSize">
+              <size>
+               <width>500</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Last Modified:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="last_modified">
+             <property name="maximumSize">
+              <size>
+               <width>500</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="dos">
+       <attribute name="title">
+        <string>DOS头</string>
+       </attribute>
+       <widget class="QWidget" name="horizontalLayoutWidget_9">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_49">
+         <item>
+          <widget class="QLabel" name="label_9">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>e_magic</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="textBrowser">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>30</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_10">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_50">
+         <item>
+          <widget class="QLabel" name="label_10">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>e_magic</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="textBrowser_2">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>30</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_11">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>100</y>
+          <width>151</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_51">
+         <item>
+          <widget class="QLabel" name="label_11">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>e_magic</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="textBrowser_3">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>30</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_12">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>140</y>
+          <width>151</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_52">
+         <item>
+          <widget class="QLabel" name="label_12">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>e_magic</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="textBrowser_4">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>30</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_13">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>180</y>
+          <width>151</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_53">
+         <item>
+          <widget class="QLabel" name="label_13">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>e_magic</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="textBrowser_5">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>30</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_14">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>220</y>
+          <width>151</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_54">
+         <item>
+          <widget class="QLabel" name="label_14">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>e_magic</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="textBrowser_6">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>30</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_15">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>260</y>
+          <width>151</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_55">
+         <item>
+          <widget class="QLabel" name="label_15">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>e_magic</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="textBrowser_7">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>30</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_16">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>300</y>
+          <width>151</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_56">
+         <item>
+          <widget class="QLabel" name="label_16">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>e_magic</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="textBrowser_8">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>30</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_17">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>340</y>
+          <width>151</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_57">
+         <item>
+          <widget class="QLabel" name="label_113">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>e_magic</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="textBrowser_9">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>30</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_18">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>380</y>
+          <width>151</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_58">
+         <item>
+          <widget class="QLabel" name="label_114">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>e_magic</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="textBrowser_85">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>30</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_19">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>60</y>
+          <width>151</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_59">
+         <item>
+          <widget class="QLabel" name="label_115">
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>e_magic</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextBrowser" name="textBrowser_86">
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>30</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="file">
+       <attribute name="title">
+        <string>文件头</string>
+       </attribute>
+       <widget class="QWidget" name="verticalLayoutWidget_8">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>631</width>
+          <height>301</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_62">
+           <item>
+            <widget class="QLabel" name="label_65">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Machine</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="textBrowser_40">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_63">
+           <item>
+            <widget class="QLabel" name="label_68">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>NumberOfSections</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="textBrowser_41">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_64">
+           <item>
+            <widget class="QLabel" name="label_71">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>TimeDateStamp</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="textBrowser_44">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_65">
+           <item>
+            <widget class="QLabel" name="label_70">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>PointerToSymbolTable</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="textBrowser_42">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_66">
+           <item>
+            <widget class="QLabel" name="label_72">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>SizeOfOptionalHeader</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="textBrowser_43">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_67">
+           <item>
+            <widget class="QLabel" name="label_67">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Characteristics</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="textBrowser_38">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="optional">
+       <attribute name="title">
+        <string>可选文件头</string>
+       </attribute>
+       <widget class="QTextBrowser" name="textBrowser_45">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>320</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_46">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>270</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_47">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>370</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_48">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>20</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_49">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>70</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_50">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>170</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_51">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>220</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_52">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>120</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_73">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Magic</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_74">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>380</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>BaseOfCode</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_75">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>290</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SizeOfUninitializedData</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_76">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>90</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>MajorLinkerVersion</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_77">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>330</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>AddressOfEntryPoint</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_78">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>180</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SizeOfCode</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_79">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>130</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>MinorLinkerVersion</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_80">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>240</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SizeOfInitializedData</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_124">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>320</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>MajorImageVersion</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_125">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>230</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>MajorOperatingSystemVersion</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_126">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>120</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SectionAlignment</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_127">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>170</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>FileAlignment</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_128">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>280</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>MinorOperatingSystemVersion</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_129">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>30</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>BaseOfData</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_130">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>370</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>MinorImageVersion</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_131">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>80</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ImageBase</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_298">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>30</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>MajorSubsystemVersion</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_299">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>370</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>DllCharacteristics</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_300">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>320</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Subsystem</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_301">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>120</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Win32VersionValue</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_302">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>80</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>MinorSubsystemVersion</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_303">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>170</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SizeOfImage</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_304">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>230</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SizeOfHeaders</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_305">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>280</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CheckSum</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_306">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>30</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SizeOfStackReserve</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_307">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>320</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>NumberOfRvaAndSizes</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_308">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>120</y>
+          <width>101</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SizeOfHeapReserve</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_310">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>80</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SizeOfStackCommit</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_311">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>280</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>LoaderFlags</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_312">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>230</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SizeOfHeaders</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_313">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>170</y>
+          <width>101</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SizeOfHeapCommit</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="section">
+       <attribute name="title">
+        <string>节表</string>
+       </attribute>
+       <widget class="QTextBrowser" name="textBrowser_53">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>330</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_54">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>280</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_55">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>380</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_56">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>30</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_57">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>80</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_58">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>180</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_59">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>230</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_60">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>130</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_81">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>50</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_82">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>390</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_83">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>300</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_84">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>100</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_85">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>340</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_86">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>190</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_87">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>140</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_88">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>250</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="import_2">
+       <attribute name="title">
+        <string>导入表</string>
+       </attribute>
+       <widget class="QTextBrowser" name="textBrowser_61">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>330</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_62">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>280</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_63">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>380</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_64">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_65">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>80</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_66">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>180</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_67">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>230</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_68">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>130</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_89">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>50</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_90">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>390</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_91">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>300</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_92">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>100</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_93">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>340</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_94">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>190</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_95">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>140</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_96">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>250</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="output">
+       <attribute name="title">
+        <string>导出表</string>
+       </attribute>
+       <widget class="QTextBrowser" name="textBrowser_69">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>320</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_70">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>270</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_71">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>370</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_72">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>20</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_73">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>70</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_74">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>170</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_75">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>220</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_76">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>120</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_97">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>30</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_98">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>370</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_99">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>280</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_100">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>80</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_101">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>320</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_102">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>170</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_103">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>120</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_104">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>230</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="relocation">
+       <attribute name="title">
+        <string>重定位表</string>
+       </attribute>
+       <widget class="QTextBrowser" name="textBrowser_77">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>320</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_78">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>270</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_79">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>370</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_80">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>20</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_81">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>70</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_82">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>170</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_83">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>220</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_84">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>120</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_105">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>50</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_106">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>390</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_107">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>300</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_108">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>100</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_109">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>340</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_110">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>190</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_111">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>140</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_112">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>250</y>
+          <width>40</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
